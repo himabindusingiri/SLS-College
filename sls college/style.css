@@ -1,0 +1,105 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f5faff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #004b8d;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  background-color: #0077cc;
+}
+
+.hero {
+  background: #d0e9ff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #222;
+}
+
+.courses {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.course-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.course-card h3 {
+  color: #004b8d;
+  margin-bottom: 10px;
+}
+
+.highlights {
+  background: #eef9ff;
+  padding: 40px 20px;
+}
+
+.highlights ul {
+  list-style: square inside;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact-info {
+  padding: 30px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+footer {
+  background-color: #004b8d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
